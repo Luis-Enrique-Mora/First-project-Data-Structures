@@ -24,8 +24,8 @@ class MainWindow : public QMainWindow
 
         void on_btnStart_clicked();
 
-private:
-        Ui::MainWindow *ui;
-        QSequentialAnimationGroup *airPlaneAnimation;
+    private:
+            Ui::MainWindow *ui;
+            QSequentialAnimationGroup *airPlaneAnimation;
 };
 #endif // MAINWINDOW_H

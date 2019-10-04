@@ -1,21 +1,21 @@
 #ifndef NODO_H
 #define NODO_H
-
-#include <QStack>
-#include <QQueue>
-
+#include "aviones.h"
 class Nodo
 {
+    private:
+        Nodo *next;
+        Nodo *previous;
+        Aviones *avion;
+    public:
+        Nodo(Aviones *avion);
 
-private:
-    int IDE;
-    int contador;
-    int ContDesp;
-
-
-public:
-    Nodo();
-
+        void setNext(Nodo *next);
+        void setPrevious(Nodo *previous);
+        void setAvion(Aviones *avion);
+        Nodo *getNext();
+        Nodo *getPrevious();
+        Aviones* getAvion();
 };
 
 #endif // NODO_H

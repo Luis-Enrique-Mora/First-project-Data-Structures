@@ -1,8 +1,16 @@
 #include "aviones.h"
 
-Aviones::Aviones(int IDE)
+Aviones::Aviones(int id)
 {
+    this->id= id;
+}
 
-    this->IDE= IDE;
+int Aviones::getId()
+{
+    return this->id;
+}
 
+void Aviones::setId(int id)
+{
+    this->id = id;
 }

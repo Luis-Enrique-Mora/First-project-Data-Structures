@@ -18,11 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     aviones.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    nodo.cpp
 
 HEADERS += \
     aviones.h \
-    mainwindow.h
+    mainwindow.h \
+    nodo.h
 
 FORMS += \
     mainwindow.ui
